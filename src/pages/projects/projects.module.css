@@ -1,0 +1,29 @@
+.main {
+  padding: 20px;
+}
+
+.main > p {
+  margin-bottom: 40px;
+}
+
+.projects__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 20px;
+}
+
+.projects__wrapper > * {
+  margin: 0 20px 20px 0;
+}
+
+@media (max-width: 768px) {
+  .projects__wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .projects__wrapper > * {
+    margin: 0 10px 10px 0;
+  }
+}
