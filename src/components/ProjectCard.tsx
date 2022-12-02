@@ -1,7 +1,13 @@
 import React from "react";
-import classes from "./projectCard.module.css";
+import classes from "./ProjectCard.module.css";
 
-const ProjectCard = ({ image, title, description }) => {
+type Props = {
+  image: string;
+  title: string;
+  description: string;
+};
+
+const ProjectCard = ({ image, title, description }: Props) => {
   return (
     <div className={classes.card__wrapper}>
       <div className={classes.image__wrapper}>

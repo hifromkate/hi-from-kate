@@ -1,6 +1,6 @@
 import React from "react";
-import photo from "../../images/kate.jpeg";
-import classes from "./main.module.css";
+import photo from "../images/kate.jpeg";
+import classes from "./Main.module.css";
 
 const Main = () => {
   return (
