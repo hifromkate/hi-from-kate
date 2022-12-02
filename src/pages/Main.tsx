@@ -1,4 +1,3 @@
-import React from "react";
 import photo from "../images/kate.jpeg";
 import classes from "./Main.module.css";
 
@@ -16,7 +15,7 @@ const Main = () => {
             </div>
             <div className={classes.introduction__block}>
               <p>
-                Hi, I'm Kate, a front-end (React & TypeScript ❤️‍🔥) developer from Kharkiv, Ukraine. Currently I live in
+                Hi, I'm Kate, a front-end (React & TypeScript ❤️‍🔥) developer from Kharkiv, Ukraine. Currently, I live in
                 the Netherlands. I'm a fan of writing good and extendable code. I'm also a fan of traveling, meeting new
                 people, reading books and eating Asian food.
               </p>

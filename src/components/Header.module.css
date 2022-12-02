@@ -43,7 +43,8 @@
   transition: all 0.2s ease-in-out;
 }
 
-.menu li:hover {
+.menu li:hover,
+.active {
   cursor: pointer;
   background-color: rgb(31, 104, 119);
   color: white;

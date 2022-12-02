@@ -71,7 +71,6 @@
 
 .contacts__block {
   padding: 20px;
-  /* height: calc(50% - 10px); */
   display: flex;
   width: 100%;
   justify-content: center;
@@ -94,7 +93,7 @@
 }
 
 .photo__wrapper {
-  max-width: 330px;
+  max-width: 580px;
 }
 
 .photo__wrapper img {

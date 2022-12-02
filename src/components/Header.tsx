@@ -1,8 +1,10 @@
-import React from "react";
 import classes from "./Header.module.css";
-import { Link } from "react-router-dom";
+import { Link, matchPath, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const { pathname } = useLocation();
+  const isProjectsRoute = matchPath(pathname, { path: "/projects" });
+
   return (
     <header>
       <nav>
@@ -11,7 +13,7 @@ const Header = () => {
             hifromkate
           </Link>
           <ul className={classes.menu}>
-            <li>
+            <li className={isProjectsRoute ? classes.active : undefined}>
               <Link to="/projects">Projects</Link>
             </li>
           </ul>
