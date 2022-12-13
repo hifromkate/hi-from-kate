@@ -1,6 +1,5 @@
 .card__wrapper {
   height: 270px;
-  box-sizing: border-box;
   padding: 20px;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
@@ -34,7 +33,6 @@
 @media (max-width: 768px) {
   .card__wrapper {
     border-bottom: 1px solid black;
-    flex-basis: 100%;
     border-right: none;
     border-left: none;
     border-top: 1px solid black;

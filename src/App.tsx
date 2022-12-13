@@ -1,4 +1,4 @@
-import classes from "./app.module.css";
+import classes from "./App.module.css";
 import Header from "./components/Header";
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";

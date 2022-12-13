@@ -7,18 +7,19 @@ const Header = () => {
 
   return (
     <header>
-      <nav>
-        <div className={classes.header}>
-          <Link to="/" className={classes.text__logo}>
-            hifromkate
-          </Link>
-          <ul className={classes.menu}>
-            <li className={isProjectsRoute ? classes.active : undefined}>
-              <Link to="/projects">Projects</Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div className={classes.header}>
+        <Link to="/" className={classes.text__logo}>
+          hifromkate
+        </Link>
+        <a href="https://savelife.in.ua/donate/" target="_blank" rel="noreferrer">
+          🇺🇦 Help Ukraine now
+        </a>
+        <ul className={classes.menu}>
+          <li className={isProjectsRoute ? classes.active : undefined}>
+            <Link to="/projects">Projects</Link>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 };

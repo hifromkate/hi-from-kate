@@ -8,10 +8,10 @@ const Main = () => {
         <div className={classes.left__block}>
           <div className={classes.left__block__upper__block}>
             <div className={classes.emojis__block}>
-              <span>&#128540;</span>
-              <span>&#128187;</span>
-              <span>&#128420;</span>
-              <span>&#127774;</span>
+              <span>😜</span>
+              <span>💻</span>
+              <span>🇺🇦</span>
+              <span>🌞</span>
             </div>
             <div className={classes.introduction__block}>
               <p>
@@ -27,13 +27,13 @@ const Main = () => {
           </div>
           <div className={classes.left__block__bottom__block}>
             <div className={classes.emojis__block}>
-              <span>&#128541;</span>
-              <span>&#9995;</span>
-              <span>&#128221;</span>
-              <span>&#128222;</span>
+              <span>🤓</span>
+              <span>👋</span>
+              <span>📝</span>
+              <span>📞</span>
             </div>
             <div className={classes.contacts__block}>
-              <p>Reach out to say hi, invite to an awesome project or send ramen recipe:</p>
+              <p>Reach out to say hi, invite to an awesome project or send mochi recipe:</p>
             </div>
             <div className={classes.links}>
               <p>
